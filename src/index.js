@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 exec(
-\    "java -Xmx512m -jar zap-2.7.0.jar -version",
+    "java -Xmx512m -jar zap-2.7.0.jar -version",
     {
         cwd: process.env.PROGRAMFILES + "\\OWASP\\Zed Attack Proxy\\"
     },
